@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: upstream
       url-base: https://github.com/zmkfirmware
+    - name: keeb-it
+      url-base: https://github.com/keeb-it
   projects:
     - name: zmk
       remote: upstream
       revision: main
       import: app/west.yml
+    - name: zmk-keyboards
+      remote: keeb-it
+      revision: main
   self:
     path: config
