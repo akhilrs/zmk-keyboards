@@ -4,7 +4,7 @@ name: acorn
 type: shield
 url: https://github.com/keeb-it/acorn
 requires: [nice_nano_v2]
-exposes: [i2c_oled, spi_oled]
+exposes: [spi]
 siblings:
   - acorn_central_dongle
   - acorn_central_left
